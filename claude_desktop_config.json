@@ -1,0 +1,19 @@
+{
+    "mcpServers": {
+      "filesystem": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "C:/Users/hojinsun/dev"
+        ]
+      },
+      "brianslab-mcp": {
+        "command": "C:/Program Files/Eclipse Adoptium/jdk-17.0.13.11-hotspot/bin/java",
+        "args":[
+            "-jar",
+            "D:/stored_study/spring-study/spring-ai/brianslab-mcp/build/libs/brianslab-mcp-0.0.1-SNAPSHOT.jar"
+        ]
+      }
+    }
+  }
